@@ -2,7 +2,14 @@ html,
 body {
     height: 100%;
     width: 100%;
+    background-color: black;
 }
+h1{
+    color: antiquewhite;
+    font-style: italic;
+    font-weight: 900;
+}
+
 
 .container {
     text-align: center;
@@ -16,6 +23,9 @@ input {
     font-size: 1.5em;
     padding: 0 .1em;
     width: 11.5em;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: .5em;
    
 
 
@@ -25,5 +35,13 @@ button {
     font-size: 1.4em;
     background-color: rgb(76, 78, 74);
     width: 3em;
-    height: 2em;
+    height: 2.5em;
+    border-radius: 9px;
+}
+.calculator{
+    display: inline-block;
+    border: 2px solid black;
+  padding: 1em 2em;
+  background: #2321b9b8;
+  border-radius: 26px;
 }
