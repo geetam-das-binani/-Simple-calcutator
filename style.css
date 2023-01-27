@@ -2,10 +2,10 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgb(30, 139, 115);
 }
 h1{
-    color: antiquewhite;
+    color: #111110;
     font-style: italic;
     font-weight: 900;
 }
